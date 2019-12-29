@@ -40,7 +40,7 @@ import java.util.function.Consumer;
 
 public abstract class HyperiumGui extends GuiScreen {
 
-    public static ResourceLocation background = new ResourceLocation("wingsmod", "world-loading.png");
+    public static ResourceLocation background = new ResourceLocation("hyperiumfriendsgui", "world-loading.png");
     private final Map<GuiButton, Consumer<GuiButton>> clicks = new HashMap<>();
     private final Map<GuiButton, Consumer<GuiButton>> updates = new HashMap<>();
     private final Map<String, GuiButton> nameMap = new HashMap<>();

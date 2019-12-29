@@ -22,7 +22,7 @@ public class CommandForGUI extends CommandBase
 	@Override
 	public String getCommandName()
 	{
-		return "wingsmod";
+		return "hyperiumfriendsgui";
 	}
 
 	@Override public String getCommandUsage(ICommandSender sender)

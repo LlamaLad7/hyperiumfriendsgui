@@ -69,7 +69,7 @@ public class HypixelAPI {
     private List<UUID> friendsForCurrentUser = new ArrayList<>();
 
     public HypixelAPI() {
-        sk1erMod = new Sk1erMod("wingsmod", "1.2");
+        sk1erMod = new Sk1erMod("hyperiumfriendsgui", "1.0");
         Multithreading.schedule(this::updatePersonalData, 10L, 305, TimeUnit.SECONDS);
         INSTANCE = this;
         //Multithreading.runAsync(() -> getQuests(true));
