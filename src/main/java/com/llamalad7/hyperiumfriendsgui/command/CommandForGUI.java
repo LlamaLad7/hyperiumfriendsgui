@@ -22,12 +22,12 @@ public class CommandForGUI extends CommandBase
 	@Override
 	public String getCommandName()
 	{
-		return "hyperiumfriendsgui";
+		return "hpf";
 	}
 
 	@Override public String getCommandUsage(ICommandSender sender)
 	{
-		return "/wingsmod";
+		return "/hpf";
 	}
 
 	@Override public boolean canCommandSenderUseCommand(ICommandSender sender)
