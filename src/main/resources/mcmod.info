@@ -1,0 +1,11 @@
+[
+{
+  "modid": "hyperiumfriendsgui",
+  "name": "Hypixel Friends GUI (From Hyperium)",
+  "description": "A Forge port of the Hypixel Friends Menu in Hyperium",
+  "version": "1.0",
+  "mcversion": "${mcversion}",
+  "updateUrl": "",
+  "authorList": ["llamalad7"]
+}
+]
